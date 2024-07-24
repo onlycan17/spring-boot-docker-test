@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk-alpine
 WORKDIR /app  
 
 # Copy the built JAR file to the container  
-COPY target/spring-boot-docker-test.jar app.jar  
+COPY target/myfirstwebapp-0.0.1-SNAPSHOT.jar app.jar  
 
 # Expose the port the app runs on  
 EXPOSE 8080  
