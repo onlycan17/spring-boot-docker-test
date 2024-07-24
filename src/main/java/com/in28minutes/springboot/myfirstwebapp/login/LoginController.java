@@ -17,7 +17,6 @@ public class LoginController {
 
     @GetMapping("/login")
     public String gotoLoginPage() {
-        System.out.println("LoginController: gotoLoginPage!!!");
         return "login";
     }
 
